@@ -272,7 +272,7 @@ SOFTWARE.
         'height': bb.h,
         'top': bb.y1 + cOff.top + window.pageYOffset,
         'left': bb.x1 + cOff.left + window.pageXOffset,
-        'position': 'absolute',
+        'position': 'fixed',
         'pointer-events': 'none',
         'background': 'red',
         'z-index': 99999999,
